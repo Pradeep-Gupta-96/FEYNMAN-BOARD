@@ -1,0 +1,32 @@
+html {
+
+    background-color: rgb(194, 154, 174);
+   
+}
+
+.container-fluid {
+    background-color: rgb(194, 154, 174);
+    color: white;
+    
+}
+
+input[type="text"]{
+    background: transparent;
+    color: white;
+}
+input[type="text"]:focus{
+    background: transparent;
+    color: white;
+}
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+#topic:hover{
+color: blueviolet;
+cursor: pointer;
+font-weight: bolder;
+}
